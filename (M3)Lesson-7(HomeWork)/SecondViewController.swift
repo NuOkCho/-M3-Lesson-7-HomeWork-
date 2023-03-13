@@ -1,22 +1,21 @@
 //
-//  ViewController.swift
+//  SecondViewController.swift
 //  (M3)Lesson-7(HomeWork)
 //
 //  Created by Ahmed Muvaza on 12/3/23.
 //
 
 import UIKit
-import SnapKit
 
-class ViewController: UIViewController {
-    
+class SecondViewController: UITabBarController {
+
     let labelWelcome: UILabel = {
-        let label = UILabel()
-        label.text = "View Favorites"
-        label.numberOfLines = 0
-        label.textColor = .black
-        return label
-    }()
+           let label = UILabel()
+        label.text = "View Recent"
+           label.numberOfLines = 0
+           label.textColor = .black
+           return label
+       }()
     
     override func viewDidLoad() {
         super.viewDidLoad()
